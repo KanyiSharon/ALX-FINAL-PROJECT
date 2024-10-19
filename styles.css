@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Place the video behind all other elements */
+}
+
+.container {
+    max-width: 200px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Add some transparency to make the text readable */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 ,#welcomeText {
+    color: #567cbd;
+    text-align: center;
+    text-shadow: 1px 1px 1px pink;
+}
+
+.input-section {
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:white;
+}
+
+select,
+input[type="number"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#convertBtn {
+    background-color: black;
+    color: pink;
+    cursor: pointer;
+}
+
+
+#convertBtn:hover {
+    background-color:#567cbd ;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: black;
+    color: #567cbd;
+}
+
